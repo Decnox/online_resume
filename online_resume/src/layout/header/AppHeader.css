@@ -1,0 +1,29 @@
+#header{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #282c34;
+    justify-items: center;
+}
+
+#header_links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 18%;
+}
+
+.link{
+    font-size: x-large;
+}
+
+
+a:hover{
+    color: gray;
+}
+
+a{
+    color: white;
+}
