@@ -1,0 +1,35 @@
+.experienceCard{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+    border-radius: 15px;
+    background: #262629;
+    padding: 1%;
+    flex: auto;
+    margin: 1%;
+}
+
+.date{
+    width: 100%;
+    margin: auto;
+    margin-right: 5%;
+}
+
+#desc{
+    margin: auto;
+    width: 100%;
+}
+
+@media (max-width: 800px){
+    .experienceCard{
+        width: 95%;
+        margin-bottom: 5%;
+        font-size: xx-small;
+    }
+
+    .date{
+        margin: 0%;
+        width: 50%;
+    }
+}

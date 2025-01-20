@@ -14,5 +14,13 @@ export const obj = [
         "logo": "lienToLogo",
         "contrat": "stage",
         "desc": "Réalisation de la fusion de deux logiciels existant en un seul pour l'utilisation en entreprise sous l'environnement de développement 4D. En total autonomie."
+    },
+    {
+        "start": "06/2020",
+        "end": "08/2020",
+        "company": "Vulcanic",
+        "logo": "lienToLogo",
+        "contrat": "stage",
+        "desc": "Réalisation de la fusion de deux logiciels existant en un seul pour l'utilisation en entreprise sous l'environnement de développement 4D. En total autonomie."
     }
 ]
