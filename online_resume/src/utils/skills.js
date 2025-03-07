@@ -5,15 +5,15 @@ export const skills = [
     },
     {
         "name": "CSS",
-        "color": "#400b00"
+        "color": "#715100"
     },
     {
         "name": "HTML",
-        "color": "#184900"
+        "color": "#300047"
     },
     {
         "name": "PHP",
-        "color": "#003174"
+        "color": "#4c0081"
     },
     {
         "name": "React",
@@ -25,11 +25,11 @@ export const skills = [
     },
     {
         "name": "Blender",
-        "color": "#003174"
+        "color": "#320014"
     },
     {
         "name": "Photoshop",
-        "color": "#400b00"
+        "color": "#4c0081"
     },
     {
         "name": "Maya",
@@ -41,10 +41,46 @@ export const skills = [
     },
     {
         "name": "Unity",
-        "color": "#400b00"
+        "color": "#00495b"
     },
     {
         "name": "Unreal Engine",
-        "color": "#184900"
+        "color": "#4c0081"
+    },
+    {
+        "name": "SQL",
+        "color": "#00495b"
+    },
+    {
+        "name": "Bash",
+        "color": "#400b00"
+    },
+    {
+        "name": "PySide",
+        "color": "#320014"
+    },
+    {
+        "name": "Angular",
+        "color": "#715100"
+    },
+    {
+        "name": "Springboot",
+        "color": "#400b00"
+    },
+    {
+        "name": "4D",
+        "color": "#300047"
+    },
+    {
+        "name": "Kitsu",
+        "color": "#003174"
+    },
+    {
+        "name": "API Kitsu",
+        "color": "#4c0081"
+    },
+    {
+        "name": "After Effect",
+        "color": "#715100"
     },
 ]
