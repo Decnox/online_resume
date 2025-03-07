@@ -38,3 +38,14 @@ a{
         width: 10%;
     }
 }
+
+@media (max-width : 1200px) {
+    .link{
+        font-size:2vw;
+        margin-left: 5%;
+    }
+
+    #name{
+        width: 10%;
+    }
+}

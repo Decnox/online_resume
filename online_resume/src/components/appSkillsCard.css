@@ -1,0 +1,15 @@
+.skill{
+    flex-basis: 15%;
+    border-radius: 3vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: large;
+}
