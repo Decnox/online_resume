@@ -1,9 +1,10 @@
 import "./AppHeader.css"
+import image from "../../assets/photo profil Loick.png"
 function AppHeader(){
     return(
         <div id="header">
             <div id="name">
-                <img src="D/REACT/CV_en_ligne/cv_en_ligne/resume_online/resume_online/src/img/Caillon_Loick.jpg" 
+                <img src={image} 
                 alt="Loick PP" id="profilImage" ></img>
                 <h2>Loïck Caillon</h2>
                 <h3>Développeur</h3>

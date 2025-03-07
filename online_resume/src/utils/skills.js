@@ -12,10 +12,6 @@ export const skills = [
         "color": "#300047"
     },
     {
-        "name": "PHP",
-        "color": "#4c0081"
-    },
-    {
         "name": "React",
         "color": "#400b00"
     },
@@ -36,10 +32,6 @@ export const skills = [
         "color": "#184900"
     },
     {
-        "name": "C++",
-        "color": "#003174"
-    },
-    {
         "name": "Unity",
         "color": "#00495b"
     },
@@ -52,24 +44,8 @@ export const skills = [
         "color": "#00495b"
     },
     {
-        "name": "Bash",
-        "color": "#400b00"
-    },
-    {
         "name": "PySide",
         "color": "#320014"
-    },
-    {
-        "name": "Angular",
-        "color": "#715100"
-    },
-    {
-        "name": "Springboot",
-        "color": "#400b00"
-    },
-    {
-        "name": "4D",
-        "color": "#300047"
     },
     {
         "name": "Kitsu",
