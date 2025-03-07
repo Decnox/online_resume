@@ -13,3 +13,24 @@
 h1{
     font-size: large;
 }
+
+@media (max-width: 800px){
+    .skill{
+        flex-basis: 25%;
+        margin: 1vh;
+    }
+
+    h1{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 400px){
+    .skill{
+        flex-basis: 33%;
+        margin: 1vh;
+    }
+    h1{
+        font-size: medium;
+    }
+}

@@ -3,7 +3,7 @@ import AppSkillsCard from "../../components/appSkillsCard.jsx"
 
 const AppSkills = () => {
     return(
-        <div className="skills">
+        <div id="skills">
             <h1>Compétences</h1>
                 <div className="skill">
                 {   

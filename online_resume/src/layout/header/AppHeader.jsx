@@ -10,7 +10,7 @@ function AppHeader(){
             </div>
             <ul id="header_links">
                 <li className="link"><a href ="#home">Home</a></li>
-                <li className="link"><a href ="#competences">Compétences</a></li>
+                <li className="link"><a href ="#skills">Compétences</a></li>
                 <li className="link"><a href ="#experiences">Expériences</a></li>
                 <li className="link"><a href ="#contacts">Contacts</a></li>
             </ul>
