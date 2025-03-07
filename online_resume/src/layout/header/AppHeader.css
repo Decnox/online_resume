@@ -27,3 +27,25 @@ a:hover{
 a{
     color: white;
 }
+
+@media (max-width : 800px) {
+    .link{
+        font-size: x-small;
+        margin-left: 5%;
+    }
+
+    #name{
+        width: 10%;
+    }
+}
+
+@media (max-width : 1200px) {
+    .link{
+        font-size:2vw;
+        margin-left: 5%;
+    }
+
+    #name{
+        width: 10%;
+    }
+}

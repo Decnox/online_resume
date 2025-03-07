@@ -1,0 +1,55 @@
+#experiences{
+    width: 100%;
+    margin: auto;
+    /* padding: 1%; */
+    background: #282c34;
+}
+
+.experiences{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#title{
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+
+@media (max-width: 800px){
+    .experiences{
+        width: 100%;
+        padding: 0%;
+        display: block;
+        padding-bottom: 1%;
+    }
+
+    #experiences{
+        width:100%;
+        margin: 0%;
+    }
+
+    #title{
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 400px){
+    .experiences{
+        width: 100%;
+        padding: 0%;
+        display: block;
+    }
+
+    #experiences{
+        width:100%;
+        margin: 0%;
+    }
+
+    #title{
+        font-size: large;
+    }
+}

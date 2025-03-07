@@ -1,10 +1,10 @@
 import "./AppFooter.css"
 function AppFooter(){
     return(
-        <div id="footer">
+        <div id="contacts">
             <h1 id="contactsTitle">Contacts</h1>
-            <div id="contacts"> 
-                <div id="contact">
+            <div id="contact"> 
+                <div>
                     <p>tel: +33 6 26 04 15 93</p>
                     <a href="mailto:loick.ca@gmail.com" target="mail">
                         loick.ca@gmail.com

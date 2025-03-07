@@ -1,0 +1,36 @@
+.skill{
+    flex-basis: 15%;
+    border-radius: 3vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: large;
+}
+
+@media (max-width: 800px){
+    .skill{
+        flex-basis: 25%;
+        margin: 1vh;
+    }
+
+    h1{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 400px){
+    .skill{
+        flex-basis: 33%;
+        margin: 1vh;
+    }
+    h1{
+        font-size: medium;
+    }
+}

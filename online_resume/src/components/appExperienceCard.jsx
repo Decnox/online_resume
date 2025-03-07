@@ -1,3 +1,4 @@
+import "./appExperienceCard.css"
 const AppExperienceCard = ({
     start,
     end,
@@ -7,11 +8,11 @@ const AppExperienceCard = ({
     return (
         <div className="experienceCard">
             <div className="date">
-            <h3>Company: {company}</h3>
-                <p>Start: {start}</p>
-                <p>End: {end}</p>
+                <h3>Company: {company}</h3>
+                    <p>Start: {start}</p>
+                    <p>End: {end}</p>
             </div>
-            <p>Description: <br/>{desc}</p>
+            <p id="desc">Description: <br/>{desc}</p>
         </div>
     )
 }
