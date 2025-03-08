@@ -1,0 +1,8 @@
+#formation{
+    background-color: #282c34;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 2vw;
+    border: solid 1px white;
+    flex-basis: 40%;
+}

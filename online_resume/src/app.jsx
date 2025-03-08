@@ -12,7 +12,6 @@ export function App() {
   return (
     <div className='app'>
       <AppHeader/>
-      {/* <AppPassions/> */}
       <AppPresentation/>
       <AppExperiences/>
       <AppSkills/>

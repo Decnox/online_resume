@@ -5,19 +5,23 @@ import AppFormationCard from "../../components/formations/appFormationCard.jsx"
 const AppPresentation = () => {
     return(
         <div id="presentation">
-            <h1 id = "title">
-                Qui suis-je ?
-            </h1>
+            <div id="aboutMyself">
+                <h1 id = "title">
+                    Qui suis-je ?
+                </h1>
 
-            <p>
-                Bonjour, je m'appelle Loïck Caillon, j'ai 24 ans, et je suis développeur.
-                Je suis issu d'un Bac S spécialité physique que j'ai obtenu avec mention.
-            </p>
+                <p>
+                    Bonjour, je m'appelle Loïck Caillon, j'ai 24 ans, et je suis développeur.
+                    Je suis issu d'un Bac S spécialité physique que j'ai obtenu avec mention.
+                    <br/>Et voici les formations que j'ai effectué :
+                </p>
+            </div>
 
-            <h1>Mes formations</h1>
-            {
-                formations.map((formation) => <AppFormationCard {...formation}/>)
-            }
+            <div id="formations">
+                {
+                    formations.map((formation) => <AppFormationCard {...formation}/>)
+                }
+            </div>
         </div>
     )
 }
