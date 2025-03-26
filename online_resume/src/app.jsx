@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <div id="main" class="h-screen flex flex-row flex-wrap bg-[#111111]">
+    <div id="main" class="h-screen flex flex-row flex-wrap bg-[#111111] text-white">
         <header class="fixed z-10">
           <AppSideBar class=""/>
         </header>
