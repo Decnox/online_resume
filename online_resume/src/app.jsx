@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import AppSideBar from './components/SideBar/appSideBar'
 import AppPresentation from './components/Presentation/appPresentation'
-import AppExperiences from './components/Experiences/appExperiences'
+import AppExperiences from '@/components/Experiences/appExperiences'
 import { experiences } from './utils/experiences.js'
 import { diplomas } from './utils/diplomas.js'
 import AppDiplomas from './components/Diplomas/appDiplomas.jsx'
-
-import './App.css'
+import "@/App.css"
 import { Divider, Typography } from '@mui/material'
 import Drawer from '@mui/material/Drawer';
 

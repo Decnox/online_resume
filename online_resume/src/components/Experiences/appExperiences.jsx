@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import normaal from "../../assets/Normaal.png"
+import normaal from "@/assets/Normaal.png"
 
 const AppExperiences = ({company, date, skills, img}) => {
   return(
