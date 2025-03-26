@@ -1,21 +1,48 @@
-import { useState } from 'preact/hooks'
-import './app.css'
+import { useState } from 'react'
+import AppSideBar from './components/SideBar/appSideBar'
+import AppPresentation from './components/Presentation/appPresentation'
+import AppExperiences from './components/Experiences/appExperiences'
+import { experiences } from './utils/experiences.js'
+import { diplomas } from './utils/diplomas.js'
+import AppDiplomas from './components/Diplomas/appDiplomas.jsx'
 
-import AppHeader from "./layout/header/AppHeader.jsx"
-import AppFooter from "./layout/footer/AppFooter.jsx"
-import AppPassions from "./layout/passions/AppPassions.jsx"
-import AppExperiences from "./layout/experiences/appExperience.jsx"
-import AppSkills from './layout/Skills/AppSkills.jsx'
-import AppPresentation from './layout/presentation/AppPresentation.jsx'
+import './App.css'
+import { Divider, Typography } from '@mui/material'
+import Drawer from '@mui/material/Drawer';
 
-export function App() {
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className='app'>
-      <AppHeader/>
-      <AppPresentation/>
-      <AppExperiences/>
-      <AppSkills/>
-      <AppFooter/>
-    </div>
+    <>
+    <div id="main" class="h-screen flex flex-row flex-wrap bg-[#111111]">
+        <header class="fixed z-10">
+          <AppSideBar class=""/>
+        </header>
+        <div class="flex justify-center h-screen w-screen z-0">
+          <AppPresentation/>
+        </div>
+        <div class="flex flex-wrap justify-center w-screen h-auto">
+          <Typography class="text-6xl">Experiences</Typography>
+          {experiences.map(experience => 
+            <div class="flex flex-row flex-wrap w-screen h-screen">
+              <Divider variant="middle" class="flex m-auto w-3/4 bg-[#00eeff]"/>
+              <AppExperiences {...experience}/>
+            </div>
+          )}
+        </div>
+        <div class="flex flex-wrap justify-center w-screen h-auto">
+          <Typography class="text-6xl">Diplomas</Typography>
+          {diplomas.map(diploma => 
+            <div class="flex flex-row flex-wrap w-screen h-screen">
+              <Divider variant="middle" class="flex m-auto w-3/4 bg-[#00eeff]"/>
+              <AppDiplomas {...diploma}/>
+            </div>
+          )}
+        </div>
+      </div>
+    </>
   )
 }
+
+export default App

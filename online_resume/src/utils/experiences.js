@@ -1,18 +1,16 @@
-export const obj = [
+import Normaal from "../assets/Normaal.png"
+
+export const experiences = [
     {
-        "start": "06/2023",
-        "end" : "09/2024",
-        "company": "Normaal",
-        "logo":"lienToLogo",
-        "contrat": "stage puis alternance",
-        "desc": "Développeur Pipeline/TD chez Normaal animation, avec notamment la réalisation de validateurs de conformité de scènes blender, ainsi que du SAV pour les artistes quand ils rencontraient des soucis avec le Pipe"
+        "company":"Normaal",
+        "date": "May 2023 to September 2024",
+        "skills":["Python", "Github", "Taiga","Teamwork"],
+        "img": Normaal
     },
     {
-        "start": "06/2020",
-        "end": "08/2020",
-        "company": "Vulcanic",
-        "logo": "lienToLogo",
-        "contrat": "stage",
-        "desc": "Réalisation de la fusion de deux logiciels existant en un seul pour l'utilisation en entreprise sous l'environnement de développement 4D. En total autonomie."
-    },
+        "company":"Vulcanic",
+        "date": "June 2020 to september 2020",
+        "skills":["4D", "Teamwork", "Programming"],
+        "img": Normaal
+    }
 ]
