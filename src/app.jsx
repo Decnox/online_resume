@@ -1,7 +1,7 @@
 import { Divider, Typography } from '@mui/material'
 
 
-import Sidebar from '@/components/sidebar/sideBar.jsx'
+import Sidebar from '@/components/sidebar.jsx'
 import Hero from '@/components/hero/hero.jsx'
 
 import { experiences } from '@/utils/experiences.js'
