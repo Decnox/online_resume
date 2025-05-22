@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Icon from '@mui/material/Icon';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 
-export default function AppSideBar() {
+export default function Sidebar() {
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer = (newOpen) => () => {

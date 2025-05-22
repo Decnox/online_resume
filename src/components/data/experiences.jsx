@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import normaal from "@/assets/Normaal.png"
 
-const AppExperiences = ({company, date, skills, img}) => {
+export default function Experiences({company, date, skills, img}){
   return(
     <Box key={company} class="flex flex-row flex-wrap justify-center w-full">
       <div class="w-1/2">
@@ -21,10 +21,10 @@ const AppExperiences = ({company, date, skills, img}) => {
             </CardContent>
           </Card>
         )}
+        <img src={normaal} alt='Toto'/>
         </div>
       </div>
     </Box>
   )
 }
 
-export default AppExperiences;
