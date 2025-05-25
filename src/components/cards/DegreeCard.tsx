@@ -6,22 +6,21 @@ import {
     CardTitle,
   } from "@/components/ui/card"
 
-import SkillBadge from "../badges/SkillBadge";
+  import SkillBadge from "../badges/SkillBadge";
 
 
-interface ExperienceCardProps {
-    company: string;
-    date: string
+interface DegreeCardProps{
+    degree: string,
+    year: string,
     skills: string[]
 }
 
-
-export default function ExperienceCard({company, date, skills}: ExperienceCardProps) {
+export default function DegreeCard({degree, year, skills}: DegreeCardProps){
     return (
         <Card>
         <CardHeader>
-            <CardTitle>{company}</CardTitle>
-            <CardDescription>{date}</CardDescription>
+            <CardTitle>{degree}</CardTitle>
+            <CardDescription>{year}</CardDescription>
         </CardHeader>
         <CardContent>
             <div>
@@ -31,6 +30,5 @@ export default function ExperienceCard({company, date, skills}: ExperienceCardPr
             </div>            
         </CardContent>
         </Card>
-
     )
 }

@@ -15,17 +15,19 @@ export default function ExperienceSection() {
             "skills":["4D", "Teamwork", "Programming"],
         }
     ]
-    return(
-        <>
-        <h1> Experience Section </h1>
-        {experiences.map((experience, index) => (
-            <ExperienceCard
-            key={index}
-            company={experience.company}
-            date={experience.date}
-            skills={experience.skills}
-            />
-        ))}
-      </>
-    )
+    return (
+        <section id="experiences" className="w-full mb-24 px-4 max-w-7xl">
+          <h2 className="text-4xl font-bold mb-8">Experiences</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {experiences.map((experience, index) => (
+                <ExperienceCard
+                key={index}
+                company={experience.company}
+                date={experience.date}
+                skills={experience.skills}
+                />
+            ))}
+          </div>
+        </section>
+      );
 }
