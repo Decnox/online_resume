@@ -24,7 +24,7 @@ export default function ExperienceCard({company, date, skills}: ExperienceCardPr
             <CardDescription>{date}</CardDescription>
         </CardHeader>
         <CardContent>
-            <div>
+            <div className="grid grid-flow-col grid-rows-2 gap-2">
             {skills.map((skill, index) => (
               <SkillBadge key={index}  name={skill} /> 
             ))}

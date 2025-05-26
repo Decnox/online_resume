@@ -21,18 +21,20 @@ export default function DegreeSection() {
     ]
     
     return (
-    <>
-        <h1>Degrees</h1>
+    <section id="experiences" className="w-full mb-24 px-4 max-w-7xl">
+        <h2 className="text-4xl font-bold mb-8">Degrees</h2>
 
-        {degrees.map((degree, index)=> (
-            <DegreeCard
-            key={index}
-            degree={degree.degree}
-            year={degree.year}
-            skills={degree.skills}
-            />
-        ))}
-    </>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {degrees.map((degree, index)=> (
+                <DegreeCard
+                key={index}
+                degree={degree.degree}
+                year={degree.year}
+                skills={degree.skills}
+                />
+            ))}
+        </div>
+    </section>
     )
     
 }
