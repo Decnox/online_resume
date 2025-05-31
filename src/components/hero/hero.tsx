@@ -8,7 +8,7 @@ const Hero78 = () => {
           Online resume
         </h1>
         <p className="text-center text-base text-foreground">
-          Hello, my name is Caillon Loïck, i'm a developper 
+          {"Hello, my name is Caillon Loïck, I'm a developper"} 
         </p>
         <Button className="h-fit w-fit rounded-full px-7 py-4 text-sm leading-tight font-medium">
           See linkedin profile
