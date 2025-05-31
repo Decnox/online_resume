@@ -21,7 +21,7 @@ export default function DegreeSection() {
     ]
     
     return (
-    <section id="experiences" className="w-full mb-24 px-4 max-w-7xl">
+    <section id="degrees" className="w-full mb-24 px-4 max-w-7xl">
         <h2 className="text-4xl font-bold mb-8">Degrees</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

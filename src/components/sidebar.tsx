@@ -1,11 +1,13 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Briefcase, House, Linkedin, Inbox, Atom, Settings, School } from "lucide-react"
 
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
+  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -14,24 +16,19 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
-    url: "#",
-    icon: Home,
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/lo%C3%AFck-caillon-6a6aa919a/",
+    icon: Linkedin,
   },
   {
     title: "Inbox",
-    url: "#",
+    url: "https://mail.google.com/mail/?view=cm&fs=1&to=loick.ca@gmail.com",
     icon: Inbox,
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
+    title: "ArtStation",
+    url: "https://www.artstation.com/decnox",
+    icon: Atom,
   },
   {
     title: "Settings",
@@ -40,12 +37,52 @@ const items = [
   },
 ]
 
+const navItems = [
+    {
+    title: "Home",
+    url: "# ",
+    icon: House,
+  },
+    {
+    title: "Experiences",
+    url: "#experiences",
+    icon: Briefcase,
+  },
+    {
+    title: "Degrees",
+    url: "#degrees",
+    icon: School,
+  },
+]
+
 export default function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarContent>
+      <SidebarHeader>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel>Navigation</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {navItems.map((item) => (
+                <SidebarMenuItem key={item.title}>
+                  <SidebarMenuButton asChild>
+                    <a href={item.url}>
+                      <item.icon />
+                      <span>{item.title}</span>
+                    </a>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+      </SidebarHeader>
+      <SidebarContent>
+        
+      </SidebarContent>
+      <SidebarFooter>
+        <SidebarGroup>
+          <SidebarGroupLabel>Contacts</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
@@ -61,7 +98,7 @@ export default function AppSidebar() {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
-      </SidebarContent>
+      </SidebarFooter>
     </Sidebar>
   )
 }
